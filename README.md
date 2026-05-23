@@ -4,7 +4,7 @@
 
 ### Sobre o Projeto
 
-Website desenvolvido como atividade avaliativa (AV1) da disciplina de Análise Descritiva.
+Website desenvolvido como atividade avaliativa (AV1) da disciplina de Ciencia de Dados.
 Apresenta uma análise da concorrência na modalidade **cotas de escola pública** nos vestibulares da Universidade Estadual de Ponta Grossa (UEPG), entre os anos de 2016 e 2025.
 
 ---
@@ -80,4 +80,4 @@ Apresenta uma análise da concorrência na modalidade **cotas de escola pública
 
 ---
 
-*Disciplina: Análise Descritiva · AV1 · 2025*
+*Disciplina: Ciencia de Dados· AV1 · 2026*
