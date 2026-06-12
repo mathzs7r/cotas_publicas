@@ -1,8 +1,4 @@
-/* ═══════════════════════════════════════════════════
-   ANÁLISE DESCRITIVA – COTAS PÚBLICAS UEPG/UTFPR-PG
-   Dados baseados nos editais oficiais da CPS-UEPG
-   (candidatos/vaga na cota escola pública)
-═══════════════════════════════════════════════════ */
+
 
 const ANOS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
 
@@ -247,9 +243,6 @@ function buildFilters() {
   });
 }
 
-/* ───────────────────────────────────────────────────
-   QUESTÕES
-─────────────────────────────────────────────────── */
 function calcStats() {
   /* Maior/menor concorrência (média do período) */
   const mediaPorCurso = CURSOS.map(c => {
@@ -370,9 +363,6 @@ function buildQuestions() {
     </div>`).join('');
 }
 
-/* ───────────────────────────────────────────────────
-   SCROLL REVEAL
-─────────────────────────────────────────────────── */
 function initScrollReveal() {
   const obs = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
@@ -381,9 +371,7 @@ function initScrollReveal() {
   document.querySelectorAll('.fade-in-up').forEach(el => obs.observe(el));
 }
 
-/* ───────────────────────────────────────────────────
-   INIT
-─────────────────────────────────────────────────── */
+
 document.addEventListener('DOMContentLoaded', () => {
   buildChart();
   buildFilters();
