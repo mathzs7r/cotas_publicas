@@ -80,4 +80,4 @@ Apresenta uma análise da concorrência na modalidade **cotas de escola pública
 
 ---
 
-*Disciplina: Ciencia de Dados· AV1 · 2026*
+
